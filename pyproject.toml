@@ -1,0 +1,17 @@
+[project]
+name = "discovery-feeds"
+version = "0.1.0"
+description = "Discovery feed recommender with embeddings and vector search"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "pandas",
+  "numpy",
+  "sentence-transformers",
+  "faiss-cpu",
+  "umap-learn",
+  "matplotlib",
+  "scikit-learn",
+]

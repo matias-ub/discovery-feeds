@@ -1,0 +1,61 @@
+id,title,description,topic,popularity,published_at
+1,Intro to Neural Networks,A beginner guide to neural network basics,machine learning,0.78,2025-01-10T00:00:00Z
+2,Deep Learning for Vision,How CNNs power modern image systems,machine learning,0.82,2025-01-05T00:00:00Z
+3,Transformer Models Explained,Why attention changed NLP forever,machine learning,0.86,2024-12-20T00:00:00Z
+4,ML Ops in Practice,Deploying models with reliable pipelines,machine learning,0.64,2024-11-15T00:00:00Z
+5,Feature Engineering Tips,Simple tricks to boost model quality,data science,0.71,2024-12-01T00:00:00Z
+6,Data Cleaning Checklist,Steps to make messy data usable,data science,0.67,2025-01-02T00:00:00Z
+7,AB Testing Basics,Designing experiments for product teams,data science,0.73,2024-10-12T00:00:00Z
+8,Time Series Forecasting,Seasonality and trend modeling,data science,0.69,2024-12-05T00:00:00Z
+9,Exploratory Data Analysis,Practical patterns for quick insight,data science,0.66,2024-09-28T00:00:00Z
+10,SQL for Analysts,Writing clear queries for analytics,data science,0.62,2024-10-20T00:00:00Z
+11,Backpacking in Japan,Route ideas for two weeks of travel,travel,0.58,2024-07-14T00:00:00Z
+12,Hidden Cafes in Lisbon,Quiet spots for digital nomads,travel,0.52,2024-08-02T00:00:00Z
+13,Hiking the Alps,What to pack for mountain trails,travel,0.61,2024-06-21T00:00:00Z
+14,City Guide to Seoul,Food markets and night walks,travel,0.55,2024-08-10T00:00:00Z
+15,Weekend in Mexico City,Art streets and local eats,travel,0.60,2024-09-05T00:00:00Z
+16,Surfing in Portugal,Best beginner beaches in summer,travel,0.49,2024-07-28T00:00:00Z
+17,Premier League Tactics,How teams press and transition,sports,0.63,2024-11-02T00:00:00Z
+18,NBA Draft Overview,Evaluating rookies and prospects,sports,0.57,2024-10-18T00:00:00Z
+19,Marathon Training Plan,Building endurance over 12 weeks,sports,0.68,2024-12-12T00:00:00Z
+20,The Rise of Pickleball,Why the sport is growing fast,sports,0.54,2024-09-15T00:00:00Z
+21,Cycling Power Metrics,Understanding watts and cadence,sports,0.59,2024-08-26T00:00:00Z
+22,Strength Training Basics,Safe compound lifts for beginners,sports,0.65,2024-10-01T00:00:00Z
+23,Python Packaging 101,Build and publish a clean package,programming,0.72,2024-12-08T00:00:00Z
+24,FastAPI for APIs,Designing reliable web services,programming,0.76,2025-01-08T00:00:00Z
+25,Type Hints in Python,Readable code with mypy basics,programming,0.60,2024-10-30T00:00:00Z
+26,Effective Git Workflow,Branching and reviews for teams,programming,0.58,2024-09-22T00:00:00Z
+27,JavaScript Performance,Speed tips for large web apps,programming,0.63,2024-11-25T00:00:00Z
+28,Debugging Playbook,Find and fix issues faster,programming,0.61,2024-10-05T00:00:00Z
+29,Recommendation Systems 101,Core ideas behind modern feeds,machine learning,0.80,2025-01-12T00:00:00Z
+30,Embeddings for Search,Vector representations for retrieval,machine learning,0.77,2024-12-28T00:00:00Z
+31,Graph Neural Networks,Modeling data with nodes and edges,machine learning,0.69,2024-11-08T00:00:00Z
+32,Experiment Tracking,Keeping ML runs reproducible,machine learning,0.62,2024-10-14T00:00:00Z
+33,Data Visualization Styles,Choosing charts for the message,data science,0.65,2024-11-19T00:00:00Z
+34,Statistics for ML,Confidence intervals and tests,data science,0.70,2024-12-18T00:00:00Z
+35,Data Science Interviews,Common questions and strategies,data science,0.56,2024-09-30T00:00:00Z
+36,Data Pipelines with Airflow,Orchestrating reliable workflows,data science,0.64,2024-10-25T00:00:00Z
+37,Travel Photography Basics,Lighting and composition tips,travel,0.53,2024-08-17T00:00:00Z
+38,Island Hopping in Greece,Planning ferries and routes,travel,0.57,2024-09-09T00:00:00Z
+39,Winter in Canada,Cold weather cities and gear,travel,0.50,2024-11-30T00:00:00Z
+40,Street Food in Bangkok,Night markets and signature dishes,travel,0.62,2024-10-07T00:00:00Z
+41,Olympic Highlights,Memorable moments across decades,sports,0.60,2024-07-03T00:00:00Z
+42,Tennis Serve Mechanics,Improve power and accuracy,sports,0.55,2024-08-12T00:00:00Z
+43,Esports Strategy Guide,Team roles and draft planning,sports,0.58,2024-12-02T00:00:00Z
+44,Climbing Training Cycle,Strength and recovery balance,sports,0.52,2024-09-19T00:00:00Z
+45,React State Patterns,Managing data in UI apps,programming,0.67,2024-11-12T00:00:00Z
+46,Go Concurrency Primer,Goroutines and channels explained,programming,0.59,2024-10-02T00:00:00Z
+47,API Security Essentials,Auth patterns and threat models,programming,0.64,2024-12-22T00:00:00Z
+48,DevOps for Data Teams,CI and infra for analytics,programming,0.55,2024-09-12T00:00:00Z
+49,Clustering with KMeans,Segmenting data in practice,data science,0.66,2024-11-01T00:00:00Z
+50,Outlier Detection,Methods to spot rare events,data science,0.63,2024-12-11T00:00:00Z
+51,Reinforcement Learning Intro,Agents and reward signals,machine learning,0.74,2024-12-30T00:00:00Z
+52,Prompt Engineering Basics,Writing better instructions for LLMs,machine learning,0.68,2025-01-03T00:00:00Z
+53,Vector Databases Overview,Index types and tradeoffs,machine learning,0.71,2024-11-22T00:00:00Z
+54,Feature Stores in ML,Serving consistent features,machine learning,0.60,2024-10-27T00:00:00Z
+55,Data Ethics and Bias,Practical checks for fair models,data science,0.58,2024-12-06T00:00:00Z
+56,Scaling Pandas Workflows,Speed tricks for large datasets,data science,0.61,2024-11-28T00:00:00Z
+57,Back End Caching,Reduce latency with smart caches,programming,0.62,2024-12-14T00:00:00Z
+58,TypeScript for Teams,Safer code with typed JS,programming,0.60,2024-10-09T00:00:00Z
+59,City Running Routes,Scenic loops for daily training,sports,0.56,2024-07-22T00:00:00Z
+60,Desert Road Trip,Planning fuel and safety stops,travel,0.51,2024-09-27T00:00:00Z
