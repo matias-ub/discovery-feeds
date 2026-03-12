@@ -1,14 +1,18 @@
 """Embedding utilities using sentence-transformers."""
 
 from functools import lru_cache
-from typing import List
+from typing import List, TYPE_CHECKING
 
 import numpy as np
-from sentence_transformers import SentenceTransformer
+
+if TYPE_CHECKING:
+    from sentence_transformers import SentenceTransformer
 
 
 @lru_cache(maxsize=1)
-def _load_model(model_name: str) -> SentenceTransformer:
+def _load_model(model_name: str) -> "SentenceTransformer":
+    from sentence_transformers import SentenceTransformer
+
     return SentenceTransformer(model_name)
 
 

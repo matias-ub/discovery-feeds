@@ -1,11 +1,16 @@
 import numpy as np
 
-from src.embeddings import generate_embeddings
+from src import embeddings
 
 
-def test_generate_embeddings_shape() -> None:
+def test_generate_embeddings_shape(monkeypatch) -> None:
+    class DummyModel:
+        def encode(self, texts, normalize_embeddings=True, show_progress_bar=False):
+            return np.zeros((len(texts), 8), dtype=np.float32)
+
+    monkeypatch.setattr(embeddings, "_load_model", lambda _: DummyModel())
     texts = ["hello world", "machine learning"]
-    embeddings = generate_embeddings(texts)
-    assert isinstance(embeddings, np.ndarray)
-    assert embeddings.shape[0] == len(texts)
-    assert embeddings.ndim == 2
+    vectors = embeddings.generate_embeddings(texts)
+    assert isinstance(vectors, np.ndarray)
+    assert vectors.shape[0] == len(texts)
+    assert vectors.ndim == 2
