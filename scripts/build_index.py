@@ -2,8 +2,7 @@
 
 from pathlib import Path
 
-import pandas as pd
-
+from src.data_loader import load_ag_news_sample
 from src.embeddings import generate_embeddings
 from src.vector_index import VectorIndex
 
@@ -12,12 +11,9 @@ DATA_DIR = ROOT / "data"
 
 
 def main() -> None:
-    articles = pd.read_csv(DATA_DIR / "articles.csv")
-    texts = (
-        articles["title"].fillna("")
-        + ". "
-        + articles["description"].fillna("")
-    ).tolist()
+    articles = load_ag_news_sample()
+    texts = (articles["title"].fillna("") + ". " + articles["description"].fillna("")).tolist()
+    articles.to_csv(DATA_DIR / "articles.csv", index=False)
     embeddings = generate_embeddings(texts)
     index = VectorIndex.build(embeddings)
     index_path = DATA_DIR / "index.faiss"

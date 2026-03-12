@@ -29,7 +29,7 @@ repo/
   pyproject.toml
   requirements.txt
   data/
-    articles.csv
+    index.faiss
   src/
     embeddings.py
     vector_index.py
@@ -103,7 +103,7 @@ http://localhost:8000/recommend?q=deep%20learning
 
 ## Notes
 
-- The dataset is a small synthetic set of 60 articles across ML, data science, travel, sports, and programming.
+- The dataset is loaded from HuggingFace AG News and sampled to 2,000 rows (cached locally by `datasets`).
 - See the notebook for UMAP visualization and interactive examples.
 
 ## Design Decisions

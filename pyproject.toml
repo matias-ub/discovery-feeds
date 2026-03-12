@@ -14,4 +14,5 @@ dependencies = [
   "umap-learn",
   "matplotlib",
   "scikit-learn",
+  "datasets",
 ]

@@ -1,0 +1,4 @@
+data/articles.csv
+data/index.faiss
+__pycache__/
+.venv/
