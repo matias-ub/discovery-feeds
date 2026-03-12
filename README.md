@@ -27,7 +27,6 @@ flowchart LR
 repo/
   README.md
   pyproject.toml
-  requirements.txt
   data/
     index.faiss
   src/
