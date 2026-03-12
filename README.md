@@ -105,3 +105,7 @@ http://localhost:8000/recommend?q=deep%20learning
 
 - The dataset is a small synthetic set of 60 articles across ML, data science, travel, sports, and programming.
 - See the notebook for UMAP visualization and interactive examples.
+
+## Design Decisions
+
+- Recency is weighted lowest to avoid over-prioritizing fresh content at the expense of relevance; this keeps the feed stable while still giving new items a modest boost.
